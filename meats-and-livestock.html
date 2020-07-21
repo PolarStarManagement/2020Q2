@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 Meats and Livestock | Commodities in Review 2020 Q2 - A Quant's Perspective</title>
+  <meta name="description" content="This is a collection of observations over the second quarter of 2020 in the general commodity universe." />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 Meats and Livestock | Commodities in Review 2020 Q2 - A Quant's Perspective" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a collection of observations over the second quarter of 2020 in the general commodity universe." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 Meats and Livestock | Commodities in Review 2020 Q2 - A Quant's Perspective" />
+  
+  <meta name="twitter:description" content="This is a collection of observations over the second quarter of 2020 in the general commodity universe." />
+  
+
+<meta name="author" content="Mauritz van den Worm" />
+
+
+<meta name="date" content="2020-07-21" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="price-vol.html"/>
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/htmlwidgets-1.3/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.9.1/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-1.49.4/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-1.49.4/plotly-latest.min.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-binding-2.0.2/leaflet.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="price-vol.html"><a href="price-vol.html"><i class="fa fa-check"></i><b>2</b> Price and Volatility</a><ul>
+<li class="chapter" data-level="2.1" data-path="price-vol.html"><a href="price-vol.html#price-moves"><i class="fa fa-check"></i><b>2.1</b> Price Moves</a></li>
+<li class="chapter" data-level="2.2" data-path="price-vol.html"><a href="price-vol.html#volatility"><i class="fa fa-check"></i><b>2.2</b> Volatility</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="price-vol.html"><a href="price-vol.html#energies"><i class="fa fa-check"></i><b>2.2.1</b> Energies</a></li>
+<li class="chapter" data-level="2.2.2" data-path="price-vol.html"><a href="price-vol.html#meats"><i class="fa fa-check"></i><b>2.2.2</b> Meats</a></li>
+<li class="chapter" data-level="2.2.3" data-path="price-vol.html"><a href="price-vol.html#grains-and-oilseeds"><i class="fa fa-check"></i><b>2.2.3</b> Grains and Oilseeds</a></li>
+<li class="chapter" data-level="2.2.4" data-path="price-vol.html"><a href="price-vol.html#soft-commodities"><i class="fa fa-check"></i><b>2.2.4</b> Soft Commodities</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="price-vol.html"><a href="price-vol.html#sector-aggregates"><i class="fa fa-check"></i><b>2.3</b> Sector Aggregates</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="meats-and-livestock.html"><a href="meats-and-livestock.html"><i class="fa fa-check"></i><b>3</b> Meats and Livestock</a><ul>
+<li class="chapter" data-level="3.1" data-path="meats-and-livestock.html"><a href="meats-and-livestock.html#global-pork-market"><i class="fa fa-check"></i><b>3.1</b> Global Pork Market</a></li>
+<li class="chapter" data-level="3.2" data-path="meats-and-livestock.html"><a href="meats-and-livestock.html#balance-sheets"><i class="fa fa-check"></i><b>3.2</b> Balance Sheets</a></li>
+<li class="chapter" data-level="3.3" data-path="meats-and-livestock.html"><a href="meats-and-livestock.html#monthly-hog-slaugter-numbers"><i class="fa fa-check"></i><b>3.3</b> Monthly hog slaugter numbers</a></li>
+<li class="chapter" data-level="3.4" data-path="meats-and-livestock.html"><a href="meats-and-livestock.html#slaughtering-capacity"><i class="fa fa-check"></i><b>3.4</b> Slaughtering Capacity</a></li>
+<li class="chapter" data-level="3.5" data-path="meats-and-livestock.html"><a href="meats-and-livestock.html#implications"><i class="fa fa-check"></i><b>3.5</b> Implications</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Commodities in Review 2020 Q2 - A Quant's Perspective</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="meats-and-livestock" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> Meats and Livestock</h1>
+<div id="global-pork-market" class="section level2">
+<h2><span class="header-section-number">3.1</span> Global Pork Market</h2>
+<p>The global forcasted pork slaughter numbers are summarized in the plot below. China amounts to half of the global slaughter number. The EU slaughters abouth half of China's number and the US is half of the EU. Russian and Brazillian numbers are next, but don't even combine the reach the US slaughter numbers.</p>
+<p><img src="review_files/figure-html/unnamed-chunk-8-1.png" width="960" /></p>
+<p>The largest importers of pork meet is shown in the plot below, units are in 1000's of tons. It is clear that the Asian markets and Mexico have an appitite for pork. US trade relations with the East and Mexico are key for the pork market.</p>
+<p><img src="review_files/figure-html/unnamed-chunk-9-1.png" width="960" /></p>
+</div>
+<div id="balance-sheets" class="section level2">
+<h2><span class="header-section-number">3.2</span> Balance Sheets</h2>
+<p>The table below shows the US swine animal numbers balance sheet. These numbers are shown in units of 1000's of heads. Notice the increase in projected slaughter numbers from 2019 to 2020. This amounts to an increase of 1.69%. Notice that the US have to slaughter around 11 million heads of swine every month to meet these projected slaughter numbers.</p>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Attribute_Description
+</th>
+<th style="text-align:right;">
+2016
+</th>
+<th style="text-align:right;">
+2017
+</th>
+<th style="text-align:right;">
+2018
+</th>
+<th style="text-align:right;">
+2019
+</th>
+<th style="text-align:right;">
+2020
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Beginning Stocks
+</td>
+<td style="text-align:right;">
+68919
+</td>
+<td style="text-align:right;">
+71545
+</td>
+<td style="text-align:right;">
+73145.00
+</td>
+<td style="text-align:right;">
+75070.00
+</td>
+<td style="text-align:right;">
+79048.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sow Beginning Stocks
+</td>
+<td style="text-align:right;">
+6002
+</td>
+<td style="text-align:right;">
+6110
+</td>
+<td style="text-align:right;">
+6179.00
+</td>
+<td style="text-align:right;">
+6326.00
+</td>
+<td style="text-align:right;">
+6471.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Production
+</td>
+<td style="text-align:right;">
+125936
+</td>
+<td style="text-align:right;">
+129467
+</td>
+<td style="text-align:right;">
+133518.00
+</td>
+<td style="text-align:right;">
+140191.00
+</td>
+<td style="text-align:right;">
+139652.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Imports
+</td>
+<td style="text-align:right;">
+5656
+</td>
+<td style="text-align:right;">
+5600
+</td>
+<td style="text-align:right;">
+5250.00
+</td>
+<td style="text-align:right;">
+5096.00
+</td>
+<td style="text-align:right;">
+4916.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Total Supply
+</td>
+<td style="text-align:right;">
+200511
+</td>
+<td style="text-align:right;">
+206612
+</td>
+<td style="text-align:right;">
+211913.00
+</td>
+<td style="text-align:right;">
+220357.00
+</td>
+<td style="text-align:right;">
+223616.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Total Slaughter
+</td>
+<td style="text-align:right;">
+118220
+</td>
+<td style="text-align:right;">
+121317
+</td>
+<td style="text-align:right;">
+124435.00
+</td>
+<td style="text-align:right;">
+129913.00
+</td>
+<td style="text-align:right;">
+132103.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sow Slaughter
+</td>
+<td style="text-align:right;">
+2905
+</td>
+<td style="text-align:right;">
+2971
+</td>
+<td style="text-align:right;">
+3032.00
+</td>
+<td style="text-align:right;">
+3198.00
+</td>
+<td style="text-align:right;">
+3240.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Exports
+</td>
+<td style="text-align:right;">
+48
+</td>
+<td style="text-align:right;">
+59
+</td>
+<td style="text-align:right;">
+64.00
+</td>
+<td style="text-align:right;">
+60.00
+</td>
+<td style="text-align:right;">
+44.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Loss
+</td>
+<td style="text-align:right;">
+10718
+</td>
+<td style="text-align:right;">
+11791
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+NA
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Total Distribution
+</td>
+<td style="text-align:right;">
+200511
+</td>
+<td style="text-align:right;">
+206612
+</td>
+<td style="text-align:right;">
+211913.00
+</td>
+<td style="text-align:right;">
+220357.00
+</td>
+<td style="text-align:right;">
+223616.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ending Stocks
+</td>
+<td style="text-align:right;">
+71525
+</td>
+<td style="text-align:right;">
+73445
+</td>
+<td style="text-align:right;">
+74915.00
+</td>
+<td style="text-align:right;">
+79048.00
+</td>
+<td style="text-align:right;">
+78400.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Annual % Change Prod. To Sows
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+2.03
+</td>
+<td style="text-align:right;">
+3.31
+</td>
+<td style="text-align:right;">
+-2.62
+</td>
+</tr>
+</tbody>
+</table>
+<p>The plot below shows the monthly projected slaughter numbers. The dark and light shaded regions represent 80 and 95 percent confidence intervals. The dashed red line shows the 90th percentile of monthly US slaughter numbers. Notice that the mean projected slaughter numbers are all well above the percentile reference.</p>
+<p><img src="review_files/figure-html/unnamed-chunk-12-1.png" width="960" /></p>
+<p>Another way to view this data is cummulatively. The plot below shows the cummulative projected slaughter numbers up to December. The horizontal dashed lines shows the US projected slaughter numbers. Similar to above the dashed red line gives the 90th percentile. Notice that the mean projection will only barely reach the target set by the USDA. To be safe they will have to reach slaughter numbers greater than the top marker of the 80% confidence band.</p>
+<p><img src="review_files/figure-html/unnamed-chunk-13-1.png" width="960" /></p>
+<p>The swine meat balance sheet for the US in shown in the table below. Here the units are in 1000's on tons. The increase in meat production from 2019 to 2020 is 3.24%. To achieve these production numbers the US requires sufficient capacity to slaughter all the required hogs.</p>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Attribute_Description
+</th>
+<th style="text-align:right;">
+2016
+</th>
+<th style="text-align:right;">
+2017
+</th>
+<th style="text-align:right;">
+2018
+</th>
+<th style="text-align:right;">
+2019
+</th>
+<th style="text-align:right;">
+2020
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Beginning Stocks
+</td>
+<td style="text-align:right;">
+267.00
+</td>
+<td style="text-align:right;">
+230.00
+</td>
+<td style="text-align:right;">
+251.00
+</td>
+<td style="text-align:right;">
+254.00
+</td>
+<td style="text-align:right;">
+293.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Production
+</td>
+<td style="text-align:right;">
+11320.00
+</td>
+<td style="text-align:right;">
+11611.00
+</td>
+<td style="text-align:right;">
+11943.00
+</td>
+<td style="text-align:right;">
+12543.00
+</td>
+<td style="text-align:right;">
+12950.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Imports
+</td>
+<td style="text-align:right;">
+495.00
+</td>
+<td style="text-align:right;">
+506.00
+</td>
+<td style="text-align:right;">
+473.00
+</td>
+<td style="text-align:right;">
+429.00
+</td>
+<td style="text-align:right;">
+386.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Total Supply
+</td>
+<td style="text-align:right;">
+12082.00
+</td>
+<td style="text-align:right;">
+12347.00
+</td>
+<td style="text-align:right;">
+12667.00
+</td>
+<td style="text-align:right;">
+13226.00
+</td>
+<td style="text-align:right;">
+13629.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Domestic Consumption
+</td>
+<td style="text-align:right;">
+9475.00
+</td>
+<td style="text-align:right;">
+9540.00
+</td>
+<td style="text-align:right;">
+9748.00
+</td>
+<td style="text-align:right;">
+10066.00
+</td>
+<td style="text-align:right;">
+9974.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Exports
+</td>
+<td style="text-align:right;">
+2377.00
+</td>
+<td style="text-align:right;">
+2556.00
+</td>
+<td style="text-align:right;">
+2665.00
+</td>
+<td style="text-align:right;">
+2867.00
+</td>
+<td style="text-align:right;">
+3412.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Total Distribution
+</td>
+<td style="text-align:right;">
+12082.00
+</td>
+<td style="text-align:right;">
+12347.00
+</td>
+<td style="text-align:right;">
+12667.00
+</td>
+<td style="text-align:right;">
+13226.00
+</td>
+<td style="text-align:right;">
+13629.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ending Stocks
+</td>
+<td style="text-align:right;">
+230.00
+</td>
+<td style="text-align:right;">
+251.00
+</td>
+<td style="text-align:right;">
+254.00
+</td>
+<td style="text-align:right;">
+293.00
+</td>
+<td style="text-align:right;">
+243.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+s2u
+</td>
+<td style="text-align:right;">
+1.94
+</td>
+<td style="text-align:right;">
+2.08
+</td>
+<td style="text-align:right;">
+2.05
+</td>
+<td style="text-align:right;">
+2.27
+</td>
+<td style="text-align:right;">
+1.82
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Annual % Change Per Cap. Cons.
+</td>
+<td style="text-align:right;">
+1.00
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+1.40
+</td>
+<td style="text-align:right;">
+3.10
+</td>
+<td style="text-align:right;">
+-2.00
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="monthly-hog-slaugter-numbers" class="section level2">
+<h2><span class="header-section-number">3.3</span> Monthly hog slaugter numbers</h2>
+<p>Below we show the monthly hog slaughter numbers for the top producing states reported in the latest NASS dataset. Data for the current year is shown in red. The mean slaughter numbers are represented by the solid black line. The dashed and dotted line show the 90th and 10th percentiles respectively. Notice the large decreases duing the onset of the Corona Virus Crisis in the United States.</p>
+<p><img src="review_files/figure-html/unnamed-chunk-16-1.png" width="960" /></p>
+<p>The plot below is the same as those above but shows the data on a US wide level. Here the rounded values are also shown on the graph in millions of heads. We can see that the current pace of port production will not be able to reach the goal set by the USDA.</p>
+<p><img src="review_files/figure-html/unnamed-chunk-17-1.png" width="960" /></p>
+</div>
+<div id="slaughtering-capacity" class="section level2">
+<h2><span class="header-section-number">3.4</span> Slaughtering Capacity</h2>
+<p>The table below shows the total slaughtering capacity of each state. The capacity and old columns show the fall 2018 and fall 2019 capacities respectively. This data was scraped of the <a href="http://www.pork.org/pork-quick-facts/home/stats/u-s-packing-sector/">pork.org</a> website and is measured in heads of swine on a daily slaughtering basis. Iowa and Michigan will have the largest increases in plant capacity.</p>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+state_alpha
+</th>
+<th style="text-align:left;">
+type
+</th>
+<th style="text-align:right;">
+capacity
+</th>
+<th style="text-align:right;">
+old
+</th>
+<th style="text-align:right;">
+change
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+US
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+506470
+</td>
+<td style="text-align:right;">
+494535
+</td>
+<td style="text-align:right;">
+11935
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+IA
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+152300
+</td>
+<td style="text-align:right;">
+142300
+</td>
+<td style="text-align:right;">
+10000
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+NC
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+48250
+</td>
+<td style="text-align:right;">
+48400
+</td>
+<td style="text-align:right;">
+-150
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+IL
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+48200
+</td>
+<td style="text-align:right;">
+47300
+</td>
+<td style="text-align:right;">
+900
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+MN
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+45100
+</td>
+<td style="text-align:right;">
+45100
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+IN
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+33800
+</td>
+<td style="text-align:right;">
+33800
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+MO
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+32000
+</td>
+<td style="text-align:right;">
+32000
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+NE
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+29125
+</td>
+<td style="text-align:right;">
+28950
+</td>
+<td style="text-align:right;">
+175
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+OK
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+20500
+</td>
+<td style="text-align:right;">
+20500
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+SD
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+19500
+</td>
+<td style="text-align:right;">
+19500
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+PA
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+14550
+</td>
+<td style="text-align:right;">
+15050
+</td>
+<td style="text-align:right;">
+-500
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+MI
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+12500
+</td>
+<td style="text-align:right;">
+12500
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+CA
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+12150
+</td>
+<td style="text-align:right;">
+10800
+</td>
+<td style="text-align:right;">
+1350
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+KY
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+10900
+</td>
+<td style="text-align:right;">
+10900
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+VA
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+10490
+</td>
+<td style="text-align:right;">
+10490
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+OH
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+5150
+</td>
+<td style="text-align:right;">
+5250
+</td>
+<td style="text-align:right;">
+-100
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+TN
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+3950
+</td>
+<td style="text-align:right;">
+3950
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+WI
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+3000
+</td>
+<td style="text-align:right;">
+2750
+</td>
+<td style="text-align:right;">
+250
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+TX
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+1700
+</td>
+<td style="text-align:right;">
+1700
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+OR
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+1075
+</td>
+<td style="text-align:right;">
+1075
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+KS
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+1000
+</td>
+<td style="text-align:right;">
+1000
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ID
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+730
+</td>
+<td style="text-align:right;">
+720
+</td>
+<td style="text-align:right;">
+10
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+AL
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+300
+</td>
+<td style="text-align:right;">
+300
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+NJ
+</td>
+<td style="text-align:left;">
+normal
+</td>
+<td style="text-align:right;">
+200
+</td>
+<td style="text-align:right;">
+200
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+</tbody>
+</table>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+state_alpha
+</th>
+<th style="text-align:left;">
+type
+</th>
+<th style="text-align:right;">
+capacity
+</th>
+<th style="text-align:right;">
+old
+</th>
+<th style="text-align:right;">
+change
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+US
+</td>
+<td style="text-align:left;">
+sow
+</td>
+<td style="text-align:right;">
+17440
+</td>
+<td style="text-align:right;">
+16690
+</td>
+<td style="text-align:right;">
+750
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+IA
+</td>
+<td style="text-align:left;">
+sow
+</td>
+<td style="text-align:right;">
+4000
+</td>
+<td style="text-align:right;">
+4000
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+TN
+</td>
+<td style="text-align:left;">
+sow
+</td>
+<td style="text-align:right;">
+3950
+</td>
+<td style="text-align:right;">
+3950
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+WI
+</td>
+<td style="text-align:left;">
+sow
+</td>
+<td style="text-align:right;">
+3000
+</td>
+<td style="text-align:right;">
+2750
+</td>
+<td style="text-align:right;">
+250
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+IL
+</td>
+<td style="text-align:left;">
+sow
+</td>
+<td style="text-align:right;">
+2250
+</td>
+<td style="text-align:right;">
+2250
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+MI
+</td>
+<td style="text-align:left;">
+sow
+</td>
+<td style="text-align:right;">
+1000
+</td>
+<td style="text-align:right;">
+500
+</td>
+<td style="text-align:right;">
+500
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+KS
+</td>
+<td style="text-align:left;">
+sow
+</td>
+<td style="text-align:right;">
+1000
+</td>
+<td style="text-align:right;">
+1000
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+OH
+</td>
+<td style="text-align:left;">
+sow
+</td>
+<td style="text-align:right;">
+950
+</td>
+<td style="text-align:right;">
+950
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+KY
+</td>
+<td style="text-align:left;">
+sow
+</td>
+<td style="text-align:right;">
+900
+</td>
+<td style="text-align:right;">
+900
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+AL
+</td>
+<td style="text-align:left;">
+sow
+</td>
+<td style="text-align:right;">
+300
+</td>
+<td style="text-align:right;">
+300
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+VA
+</td>
+<td style="text-align:left;">
+sow
+</td>
+<td style="text-align:right;">
+90
+</td>
+<td style="text-align:right;">
+90
+</td>
+<td style="text-align:right;">
+0
+</td>
+</tr>
+</tbody>
+</table>
+<p>Below we show a google map view of where the plants are located. The radius of the marker corresonds to the plant capacity. Zooming in around the main markers we can see that the majority of the pork processing plants are located around the Des Moines area in Iowa. Clicking on the marker gives somemore information about the specific plant and its capacity. Plants with increasing capacities are shown in green. The remainder of the plants are shown in blue.</p>
+<div id="htmlwidget-0a69d8e42511233f9b1d" style="width:960px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-0a69d8e42511233f9b1d">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addCircleMarkers","args":[[34.051848,34.051848,37.342285,43.699305,39.962623,41.3843995,41.3843995,45.282393,41.8323844096386,35.0003405,41.905358,41.292638,40.628937,44.944027,44.944027,45.187141,41.816826,40.580452,42.037235,41.6552497627119,41.6552497627119,43.377886,35.210565,41.5278465,41.5278465,37.375464,37.375464,36.729713,40.28202,40.964584,41.853903,41.853903,39.481012,39.481012,43.07719,42.5703446666667,35.974032,35.974032,35.806858,35.806858,40.77927,33.8079438787879,38.1997455151515,41.881046,42.255176,42.036096,41.177648,40.166282,37.6350695,41.116572,41.116572,40.924563,41.337433,42.058183,30.5177445,36.113717,36.113717,39.631197,41.030933,40.7340008235294,40.7340008235294,41.790296,40.249954,39.73700875,41.4454695,38.223861,38.223861,43.084013,42.4773732222222,42.4773732222222,43.6262977,36.9448705,40.288379,29.9988029166667,42.693184,34.745753,42.4497485,38.921583,38.921583,40.629101,35.01803,35.01803,42.4674756666667,43.2045215,43.2045215,42.434161,43.900192,43.645207,39.684731,39.684731],[-86.061397,-86.061397,-120.6089905,-92.976818,-90.265277,-83.631355,-83.631355,-123.218624,-87.6964714698795,-78.346542,-85.058716,-91.300624,-97.016925,-90.52792,-90.52792,-123.077797,-88.79101,-86.637891,-95.381819,-93.5845647118644,-93.5845647118644,-94.737792,-78.649602,-96.5595575,-96.5595575,-79.403888,-79.403888,-101.426147,-75.358491,-76.008333,-84.582913,-84.582913,-95.765586,-95.765586,-95.938839,-121.695853,-83.602564,-83.602564,-84.2701645,-84.2701645,-86.375168,-118.290622767677,-85.6840706515151,-97.48448,-88.607897,-92.998867,-86.008586,-93.120132,-120.9964848,-87.868519,-87.868519,-90.618313,-88.430183,-89.352968,-96.1748155,-89.272827,-89.272827,-122.327137,-92.409827,-89.6398548529412,-89.6398548529412,-94.06178,-88.113686,-94.827059375,-82.6861205,-85.360625,-85.360625,-96.269648,-96.3541372222222,-96.3541372222222,-96.75770795,-76.674434,-75.341026,-95.45256775,-95.151811,-78.809292,-114.5745165,-84.746057,-84.746057,-74.532449,-78.031022,-78.031022,-92.3001445,-88.7295015,-88.7295015,-93.825581,-95.046828,-95.735375,-83.90813,-83.90813],[0.12205754141238,0.12205754141238,0.44173205463528,10.990990990991,12.153443766347,0.20924149956408,0.20924149956408,0.16564952048823,0.41267073525138,6.10868933449579,6.92240627724499,5.81807614065679,6.02150537634409,1.11014240046498,1.11014240046498,0.0639349026445801,0.23830281894798,10.0029061319384,6.02150537634409,2.27259517582098,2.27259517582098,1.34263295553618,0.703283929090381,null,6.15228131357164,0,0,11.862830572508,6.74803836094159,0.819529206625981,0.23830281894798,0.528916012786981,0.528916012786981,0.528916012786981,1.77855274629468,0.23830281894798,0.44173205463528,0.44173205463528,0.12205754141238,0.12205754141238,8.89857599535019,4.19064225515838,5.75995350188899,4.59750072653299,1.22638767800058,12.153443766347,0.587038651554781,6.05056669572799,1.80761406567858,0.819529206625981,0.819529206625981,7.27114210985179,0.12205754141238,0.616099970938681,0.23830281894798,1.57512351060738,1.57512351060738,0.41267073525138,11.572217378669,0.38360941586748,0.38360941586748,4.74280732345249,4.24876489392618,12.444056960186,2.38884045335658,0.23830281894798,0.23830281894798,2.62133100842778,11.8047079337402,0.645161290322581,11.28160418483,5.99244405696019,0.732345248474281,0.645161290322581,9.97384481255449,20,0.37198488811392,0.18018018018018,0.18018018018018,0.0639349026445801,0.819529206625981,0.15111886079628,11.28160418483,0.528916012786981,0.528916012786981,5.75995350188899,2.91194420226678,12.153443766347,0.23830281894798,0.23830281894798],null,null,{"interactive":true,"className":"","stroke":[false,true,false,false,false,false,true,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true,false,true,false,false,false,true,false,true,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,true,false,false,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,true,false,false,false,false,false,true,false,false,false,false,true],"color":["blue","blue","blue","blue","blue","blue","blue","blue","green","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue",null,"blue","blue","blue","blue","blue","blue","green","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","green","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","green","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","green","blue","blue","blue","blue","blue","blue","green","green",null,"blue","blue","blue","blue"],"weight":5,"opacity":0.5,"fill":true,"fillColor":["blue","blue","blue","blue","blue","blue","blue","blue","green","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue",null,"blue","blue","blue","blue","blue","blue","green","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","green","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","green","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","blue","green","blue","blue","blue","blue","blue","blue","green","green",null,"blue","blue","blue","blue"],"fillOpacity":0.5},null,null,["Atalla, Alabama 300 normal","Atalla, Alabama 300 sow","Atwater, California 850 normal","Austin, Minnesota 19000 normal","Beardstown, Illinois 21000 normal","Bowling Green, Ohio 450 normal","Bowling Green, Ohio 450 sow","Carleton, Oregon 375 normal","Chicago, Illinois 800 normal","Clinton, North Carolina 10600 normal","Coldwater, Michigan 12000 normal","Columbus Junction, Iowa 10100 normal","Crete, Nebraska 10450 normal","Curtiss, Wisconsin 2000 normal","Curtiss, Wisconsin 2000 sow","Dayton, Oregon 200 normal","De Kalb, Illinois 500 normal","Delphi, Indiana 17300 normal","Denison, Iowa 10450 normal","Des Moines, Iowa 4000 normal","Des Moines, Iowa 4000 sow","Estherville, Iowa 2400 normal","Falcon, North Carolina 1300 normal","Fremont, Nebraska 0 normal","Fremont, Nebraska 10675 normal","Goode, Virginia 90 normal","Goode, Virginia 90 sow","Guymon, Oklahoma 20500 normal","Hatfield, Pennsylvania 11700 normal","Hazellton, Pennsylvania 1500 normal","Hillsdale, Michigan 500 normal","Hillsdale, Michigan 1000 sow","Holton, Kansas 1000 normal","Holton, Kansas 1000 sow","Hospers, Iowa 3150 normal","Klammath Falls, Oregon 500 normal","Kodak, Tennessee 850 normal","Kodak, Tennessee 850 sow","Lenoir City, Tennessee 300 normal","Lenoir City, Tennessee 300 sow","Logansport, Indiana 15400 normal","Los Angeles, California 7300 normal","Louisville, Kentucky 10000 normal","Madison, Nebraska 8000 normal","Marengo, Illinois 2200 normal","Marshalltown, Iowa 21000 normal","Mentone, Indiana 1100 normal","Milan, Missouri 10500 normal","Modesto, California 3200 normal","Momence, Illinois 1500 normal","Momence, Illinois 1500 sow","Monmouth, Illinois 12600 normal","Morris, Illinois 300 normal","Mount Morris, Illinois 1150 normal","Navasota, Texas 500 normal","Newbern, Tennessee 2800 normal","Newbern, Tennessee 2800 sow","Orland, California 800 normal","Ottumwa, Iowa 20000 normal","Peoria, Illinois 750 normal","Peoria, Illinois 750 sow","Perry, Iowa 8250 normal","Rantoul, Illinois 7400 normal","St. Joseph, Missouri 21500 normal","Sandusky, Ohio 4200 normal","Simsonville, Kentucky 500 normal","Simsonville, Kentucky 500 sow","Sioux Center, Iowa 4600 normal","Sioux City, Iowa 20400 normal","Sioux City, Iowa 1200 normal","Sioux Falls, South Dakota 19500 normal","Smithfield, Virginia 10400 normal","Souderton, Pennsylvania 1350 normal","Spring, Texas 1200 normal","Storm Lake, Iowa 17250 normal","Tar Heel, North Carolina 34500 normal","Twin Falls, Idaho 730 normal","Union City, Kentucky 400 normal","Union City, Kentucky 400 sow","Warren, New Jersey 200 normal","Warsaw, North Carolina 1500 normal","Warsaw, North Carolina 350 normal","Waterloo, Iowa 19500 normal","Watertown, Wisconsin 1000 normal","Watertown, Wisconsin 1000 sow","Webster City, Iowa 10000 normal","Windom, Minnesota 5100 normal","Worthington, Minnesota 21000 normal","Xenia, Ohio 500 normal","Xenia, Ohio 500 sow"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[29.9988029166667,45.282393],"lng":[-123.218624,-74.532449]}},"evals":[],"jsHooks":[]}</script>
+<p>Studying the plot above we might ask if it is good practice to think of the US pork industry on a state or country wide basis. It is clear that the majority of the pork paking facilities are located around Iowa. There are two islands outside the main area, one in Oklahoma and the other in North Carolina. It is interesting to note that the West Coast don't have great packing capacity.</p>
+<p>The plot below shows the difference in available capacity and the daily slaughter point forecast. A positive (negative) number implies sufficient (insufficient) capacity and is indicated as a blue (orange) coloured bar. It is clear that Iowa is going to have capacity constraints going into October. These capacity constraints will be felt in the total US numbers from September 2019 through to January 2020. Throughout we use the top bar of the 80% confidence band because this gives a cummulative slaughter number that equates with the projected slaughter numbers of the USDA.</p>
+<p><img src="review_files/figure-html/unnamed-chunk-22-1.png" width="960" /></p>
+</div>
+<div id="implications" class="section level2">
+<h2><span class="header-section-number">3.5</span> Implications</h2>
+<p>In the United States we have seen many processing fascilities operating at half capacity due to the Corona Virus Crisis. This has further reduced the meat packing capacities and have increased the meat packing margins to astronomical levels. The reduced packing ability has forced the lean hog prices down even though meat prices in the supermarkets are trading at elevated levels due to people buing bulk to weather out the Corona Virus Storm. The reason for this is that a larger number of farmers are competing with each other to get their product to the processing fascilities. The processing fascilities can then just take the cheapest carcasses. This created a downward spiral in the lean hog price.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="price-vol.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["review.pdf", "review.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
